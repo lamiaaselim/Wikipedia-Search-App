@@ -9,34 +9,10 @@
     color: aliceblue;
 }
 /* ------------ Navbar ------------ */
-i .fa-store:hover{
-    color:rgb(233, 97, 46);
-}
-.nav-item a{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-right: 15px;
-    font-family: 'Montserrat', sans-serif;
-}
-.nav-item a:hover{
-    color: rgb(233, 97, 46);
-}
-.bi-bank{
-    font-size: 35px;
-    color: black;
-    cursor: pointer;
-    padding-top:5px;
-    transition: all 0.4s;
-}
-.bi-bank:hover{
-    color: rgb(208, 77, 30);
-}
 .search{
     height: 45px;
     outline: none;
-    border: 2px solid rgb(233, 97, 46);
+    border: 2px solid rgb(45, 198, 73);
     background-color: transparent;
     border-radius: 20px 0px 0px 20px;
     border-right: none;
@@ -45,13 +21,13 @@ i .fa-store:hover{
     height: 45px;
     outline: none;
     border: none;
-    background-color: rgb(233, 97, 46);
+    background-color: rgb(45, 198, 73);
     color: white;
     border-radius: 0px 20px 20px 0px;
     transition: all 0.4s;
 }
 .btn1:hover{
-    background-color: rgb(208, 77, 30);
+    background-color: rgb(45, 198, 73);
 }
 .bi-cart-plus{
     margin-left: 10px;
@@ -62,7 +38,7 @@ i .fa-store:hover{
     transition: all 0.4s;
 }
 .bi-cart-plus:hover{
-    color: rgb(208, 77, 30);
+    color: rgb(45, 198, 73);
 }
 .navbar-toggler{
     font-size: 20px;

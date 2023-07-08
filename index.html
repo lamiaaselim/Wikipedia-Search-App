@@ -25,9 +25,9 @@
         <span><i class="fa-solid fa-bars-staggered"></i></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <form class="d-flex m-auto py-5" id="form-nav">
+        <form class="d-flex m-auto py-5" id="form-nav" onsubmit="handleSubmit(event)">
             <input class="px-2 search" type="search" placeholder="Search" aria-label="Search" id="input-search">
-            <button class="px-3 btn1" type="submit" onclick="handleSubmit()">Search</button>
+            <button class="px-3 btn1" type="submit">Search</button>
             <span> <i class="bi bi-cart-plus"></i> </span>
         </form>
     </div>
@@ -36,7 +36,11 @@
 <!------------- End navbar  ------------------>
 
 <!------------- Start page content ----------------->
-
+<section class="container">
+<div class="row d-flex justify-content-between py-3 mb-2" id="content">
+    <!-- Result Card -->
+</div>
+</section>
 <!------------- End page content ----------------->
 
 <!-- jQuery and Bootstrap Bundle (includes Popper)-->
